@@ -12,6 +12,7 @@ const Navigation = () => {
     ].map((el) => {
       return (
         <NavLink
+          key={el.name}
           to={el.to}
           className={cls.join(" ")}
           activeClassName={styles.active}
