@@ -1,0 +1,26 @@
+.button{
+  width: 175px;
+  height: 48px;
+  cursor: pointer;
+  padding: 12px 45px 13px;
+  border-radius: 4px;
+  background-color: #333333;
+  font-family: IBMPlexSans;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  &:hover{
+     background-color: #d0455e;
+     transition: .3s all
+  }
+}
+.button.cancel{
+  border: solid 1px #333333;
+   color: #333333;
+   background-color: #f3f1f0;
+   &:hover{
+     border: solid 1px #d0455e;
+    color: #d0455e;
+    transition: .3s all
+   }
+}
