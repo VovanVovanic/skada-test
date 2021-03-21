@@ -22,5 +22,4 @@ export const fetchPosts = (count, limit) => async (dispatch) => {
   } catch (e) {
     console.log(e);
   }
-
 }

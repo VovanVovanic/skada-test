@@ -1,6 +1,12 @@
 .App {
-max-width: 1280px;
+position: relative;
+z-index: 0;
 margin: 0 auto;
-height: 100vh;
+min-height: 100vh;
+
+}
+.App.noscroll{
+  height: 100vh;
+  overflow: hidden;
 }
 

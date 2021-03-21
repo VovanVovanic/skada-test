@@ -3,14 +3,14 @@ import styles from './listItem.module.scss'
 import { ReactComponent as Arrow } from "../../../assets/img/arrow.svg";
 import page from "../../../assets/img/pic.svg";
 
-const ListItem = ({name, tiles}) => {
+const ListItem = ({name, tiles, onClick}) => {
   const cls = [
     styles.listItem
   ]
 
 tiles && cls.push(styles.tiles)
   return (
-    <li className={cls.join(' ')}>
+    <li className={cls.join(' ')} onClick={onClick}>
       {tiles && <img src={page} alt = 'img'/>}
       <div className = {styles.itemContent}>
         <span>{name}</span> <Arrow className={styles.arrow} />

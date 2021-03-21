@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: repeat(12);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 168px auto 144px;
   grid-template-areas: 
   'header' 
@@ -8,6 +8,13 @@
   'footer';
   background-color: #f3f1f0;
   .header {
+    grid-column: span 12;
+    position: fixed;
+    z-index: 9999;
+    background-color: lightgrey;
+    top:0;
+    left: 0;
+    right:0;
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -21,7 +28,7 @@
   }
   .content {
     grid-area: main;
-    overflow: auto;
+    grid-column: span 12;
     .loadBtn {
       text-align: center;
       padding-bottom: 80px;
@@ -40,6 +47,11 @@
     }
   }
   .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    grid-column: span 12;
     grid-area: footer;
     font-family: IBMPlexSans;
     font-size: 18px;
