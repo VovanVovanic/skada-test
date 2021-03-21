@@ -8,4 +8,21 @@
   .listHandler{
     margin-bottom: 40px;
   }
+  .loadBtn {
+      text-align: center;
+      padding-bottom: 80px;
+      margin-top: 40px;
+      button {
+        border: none;
+        font-family: IBMPlexSans;
+        font-size: 18px;
+        font-weight: normal;
+        &:hover {
+          color: #d0455e;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
 }

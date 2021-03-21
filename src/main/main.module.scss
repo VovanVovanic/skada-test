@@ -29,22 +29,6 @@
   .content {
     grid-area: main;
     grid-column: span 12;
-    .loadBtn {
-      text-align: center;
-      padding-bottom: 80px;
-      button {
-        border: none;
-        font-family: IBMPlexSans;
-        font-size: 18px;
-        font-weight: normal;
-        &:hover {
-          color: #d0455e;
-        }
-        &:focus {
-          outline: none;
-        }
-      }
-    }
   }
   .footer {
     position: absolute;
