@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/skada-test/static/css/main.94f504a5.chunk.css",
-    "main.js": "/skada-test/static/js/main.e5af690a.chunk.js",
-    "main.js.map": "/skada-test/static/js/main.e5af690a.chunk.js.map",
-    "runtime-main.js": "/skada-test/static/js/runtime-main.ab64ccdd.js",
-    "runtime-main.js.map": "/skada-test/static/js/runtime-main.ab64ccdd.js.map",
-    "static/js/2.4432dbcd.chunk.js": "/skada-test/static/js/2.4432dbcd.chunk.js",
-    "static/js/2.4432dbcd.chunk.js.map": "/skada-test/static/js/2.4432dbcd.chunk.js.map",
-    "static/js/3.cb179b6a.chunk.js": "/skada-test/static/js/3.cb179b6a.chunk.js",
-    "static/js/3.cb179b6a.chunk.js.map": "/skada-test/static/js/3.cb179b6a.chunk.js.map",
+    "main.css": "/skada-test/static/css/main.1b8bb72a.chunk.css",
+    "main.js": "/skada-test/static/js/main.b91dc5f3.chunk.js",
+    "main.js.map": "/skada-test/static/js/main.b91dc5f3.chunk.js.map",
+    "runtime-main.js": "/skada-test/static/js/runtime-main.4880a709.js",
+    "runtime-main.js.map": "/skada-test/static/js/runtime-main.4880a709.js.map",
+    "static/js/2.ac7d5185.chunk.js": "/skada-test/static/js/2.ac7d5185.chunk.js",
+    "static/js/2.ac7d5185.chunk.js.map": "/skada-test/static/js/2.ac7d5185.chunk.js.map",
+    "static/js/3.f49652b6.chunk.js": "/skada-test/static/js/3.f49652b6.chunk.js",
+    "static/js/3.f49652b6.chunk.js.map": "/skada-test/static/js/3.f49652b6.chunk.js.map",
     "index.html": "/skada-test/index.html",
-    "static/css/main.94f504a5.chunk.css.map": "/skada-test/static/css/main.94f504a5.chunk.css.map",
-    "static/js/2.4432dbcd.chunk.js.LICENSE.txt": "/skada-test/static/js/2.4432dbcd.chunk.js.LICENSE.txt",
+    "static/css/main.1b8bb72a.chunk.css.map": "/skada-test/static/css/main.1b8bb72a.chunk.css.map",
+    "static/js/2.ac7d5185.chunk.js.LICENSE.txt": "/skada-test/static/js/2.ac7d5185.chunk.js.LICENSE.txt",
     "static/media/404.5f8fef72.svg": "/skada-test/static/media/404.5f8fef72.svg",
     "static/media/arrow.99ace1f4.svg": "/skada-test/static/media/arrow.99ace1f4.svg",
     "static/media/logo.c1544747.svg": "/skada-test/static/media/logo.c1544747.svg",
@@ -19,9 +19,9 @@
     "static/media/times.e920507c.svg": "/skada-test/static/media/times.e920507c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab64ccdd.js",
-    "static/js/2.4432dbcd.chunk.js",
-    "static/css/main.94f504a5.chunk.css",
-    "static/js/main.e5af690a.chunk.js"
+    "static/js/runtime-main.4880a709.js",
+    "static/js/2.ac7d5185.chunk.js",
+    "static/css/main.1b8bb72a.chunk.css",
+    "static/js/main.b91dc5f3.chunk.js"
   ]
 }
