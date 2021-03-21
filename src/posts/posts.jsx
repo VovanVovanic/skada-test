@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import List from './postList'
 import Button from '../buttons'
+import Slider from '../slider'
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPosts } from "../redux/actions/posts";
 import styles from './posts.module.scss'
@@ -18,6 +19,7 @@ const Posts = () => {
   
   return (
     <div className={styles.posts}>
+      <Slider />
       <div className={styles.listHandler}>
         <Button
           name={"list"}

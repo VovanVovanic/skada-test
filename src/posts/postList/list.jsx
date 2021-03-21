@@ -16,6 +16,7 @@ const dispatch = useDispatch()
   tiles && cls.push(styles.tiles)
 
   const posts = useSelector((state) => state.posts.posts)
+  
   const postList = posts.slice(3, posts.length)
     .map((el) => {
       return <ListItem
