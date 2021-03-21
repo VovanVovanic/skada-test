@@ -24,3 +24,24 @@
     transition: .3s all
    }
 }
+.button.list{
+  width: 57px;
+  height: 32px;
+  padding: 4px 16px 5px;
+  border:none;
+  background-color: transparent;
+  font-family: IBMPlexSans;
+  font-size: 18px;
+  font-weight: normal;
+  &:hover{
+    color:#d0455e;
+    transition: .3s all;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+.button.list.active{
+  border-radius: 16px;
+  border: solid 1px #333333;
+}

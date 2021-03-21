@@ -1,0 +1,11 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 55px;
+  align-items: center;
+  .listHandler{
+    margin-bottom: 40px;
+  }
+}
