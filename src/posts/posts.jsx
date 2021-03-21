@@ -12,7 +12,7 @@ const Posts = () => {
         <Button name={'list'} onClick={()=>setView('list')}  active ={view} type={'list'}/>
         <Button name={'tiles'} onClick={()=>setView('tiles')} active ={view} type={'list'}/>
       </div>
-      <List />
+      <List tiles={view === 'tiles' ? true : false}/>
     </div>
   );
 }

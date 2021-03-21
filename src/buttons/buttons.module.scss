@@ -11,7 +11,7 @@
   color: #ffffff;
   &:hover{
      background-color: #d0455e;
-     transition: .3s all
+     transition: .3s background-color
   }
 }
 .button.cancel{
@@ -21,7 +21,7 @@
    &:hover{
      border: solid 1px #d0455e;
     color: #d0455e;
-    transition: .3s all
+    transition: .3s background-color
    }
 }
 .button.list{
@@ -31,11 +31,12 @@
   border:none;
   background-color: transparent;
   font-family: IBMPlexSans;
+  color: #333333;
   font-size: 18px;
   font-weight: normal;
   &:hover{
     color:#d0455e;
-    transition: .3s all;
+    transition: .3s background-color
   }
   &:focus{
     outline: none;

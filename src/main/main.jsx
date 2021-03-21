@@ -18,7 +18,7 @@ const Main = () => {
   const empty = useSelector((state) => state.posts.empty)
  
   useEffect(() => {
-    dispatch(fetchPosts(0));
+    dispatch(fetchPosts(0, 11));
   },[])
   useEffect(() => {
     if (local === "/" || local === "/addPost") {

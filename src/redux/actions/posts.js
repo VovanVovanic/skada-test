@@ -11,9 +11,9 @@ export const setEmpty = () => {
 }
 
 
-export const fetchPosts = (count) => async (dispatch) => {
+export const fetchPosts = (count, limit) => async (dispatch) => {
   try {
-    const res = await getPosts(count)
+    const res = await getPosts(count, limit)
     if (!res.length) {
       dispatch(setEmpty())
     } else {
