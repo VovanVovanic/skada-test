@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skada-test/static/css/main.1b8bb72a.chunk.css",
-    "main.js": "/skada-test/static/js/main.a4ec2ab3.chunk.js",
-    "main.js.map": "/skada-test/static/js/main.a4ec2ab3.chunk.js.map",
+    "main.js": "/skada-test/static/js/main.9317f9c1.chunk.js",
+    "main.js.map": "/skada-test/static/js/main.9317f9c1.chunk.js.map",
     "runtime-main.js": "/skada-test/static/js/runtime-main.4880a709.js",
     "runtime-main.js.map": "/skada-test/static/js/runtime-main.4880a709.js.map",
     "static/js/2.ac7d5185.chunk.js": "/skada-test/static/js/2.ac7d5185.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4880a709.js",
     "static/js/2.ac7d5185.chunk.js",
     "static/css/main.1b8bb72a.chunk.css",
-    "static/js/main.a4ec2ab3.chunk.js"
+    "static/js/main.9317f9c1.chunk.js"
   ]
 }
